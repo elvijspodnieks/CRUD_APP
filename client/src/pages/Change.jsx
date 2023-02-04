@@ -46,7 +46,7 @@ export default function AddUpdate() {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!password || !newPassword) {
-            toast.error("HHPlease provide value into each input field")
+            toast.error("Please provide value into each input field")
         } else {
 
             const hashedPassword = bcrypt.hashSync(newPassword, 10);
@@ -67,7 +67,7 @@ export default function AddUpdate() {
                             }).then(() => {
                                 setState({ password: "", newPassword: "" })
                             }).catch((err) => toast.error(err.response.data));
-                            toast.success("Parole Updeitota")
+                            toast.success("Password changed successfully")
                             setTimeout(() => navigate(`/`), 500)
                         } else {
                             toast.error("Please provide value into each input field")
