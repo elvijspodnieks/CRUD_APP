@@ -34,6 +34,7 @@ npm start
 
 Front-end part will run on port 3000
 
+![crud](https://user-images.githubusercontent.com/84780001/216781258-23b57103-635b-423f-9b0d-0e606c174711.gif)
 
-![crud](https://user-images.githubusercontent.com/84780001/216026322-9643bd2b-03b6-4f32-9714-2b40b83c8c3d.gif)
+
 
